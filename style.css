@@ -123,7 +123,7 @@ a {
 
 /* Header/Navbar */
 .navbar {
-    background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+    /* background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%); */
     padding: 2rem 4rem;
     position: fixed;
     width: 100%;
@@ -143,13 +143,13 @@ body.light-mode .navbar {
 }
 
 .navbar-container {
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin:  0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
-    /* background: linear-gradient(135deg, rgba(15, 20, 25, 0.8) 0%, rgba(26, 31, 46, 0.8) 100%); */
+    background: linear-gradient(135deg, rgba(15, 20, 25, 0.8) 0%, rgba(26, 31, 46, 0.8) 100%);
     border-radius: 50px;
     padding: 1.5rem 4rem;
     border: 1px solid rgba(3, 218, 198, 0.2);
@@ -207,7 +207,7 @@ body.light-mode .logo:hover {
 
 .letter {
     background: linear-gradient(135deg, #03dac6, #00e5d0);
-    
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2961,12 +2961,12 @@ footer::before {
 }
 /* Light Mode Styling */
 body.light-mode {
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     color: #1a1a1a;
 }
 
 body.light-mode .navbar {
-    background: linear-gradient(135deg, #17a89c 0%, #13a89e 100%);
+    /* background: linear-gradient(135deg, #17a89c 0%, #13a89e 100%); */
 }
 
 body.light-mode .navbar-container {
